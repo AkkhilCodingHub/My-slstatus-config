@@ -75,7 +75,7 @@ static const struct arg args[] = {
         { cpu_perc,             "󰻠 %s%% ",      NULL },
         { ram_used,             "󱗘 %s",         NULL },
         { ram_perc,             "(%s%%) ",      NULL },
-        { run_command,          "󰃠 %s%% ",      "xbacklight -get" },
+        { run_command,          "󰃠 %s%% ",      "brillo -G" },
         { battery_perc,         " %s%%",       "BAT1" },
         { battery_state,        "(%s) ",        "BAT1" },
         { run_command,          " %s ",        vol },
