@@ -37,7 +37,7 @@ In order to build slstatus you need the Xlib header files.
 
 If you will not change nothing of this configuration, you will also need to install the following utilities:
 ```
-1. acpilight
+1. brillo
 2. alsa
 ```
 IT'S POSSIBLE THAT YOU NEED TO CHANGE THE VALUE OF THE CONSTANT **"bat"** in case you use a laptop and
