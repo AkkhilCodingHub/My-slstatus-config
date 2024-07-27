@@ -63,12 +63,10 @@ static const char unknown_str[] = "n/a";
  */
 
 static const char vol[]         = "[ `amixer sget Master | tail -n 1 | awk -F'[][]' '{print $4}'` = \"on\" ] \
-                                   && printf \"`amixer sget Master | tail -n 1 | awk -F'[][]' '{print $2}'`%%\" \
-                                   || printf 'Off'";
+                                   && printf \"`amixer sget Master | tail -n 1 | awk -F'[][]' '{print $2}'`%%\" ";
 
 static const char mic[]         = "[ `amixer sget Capture | tail -n 1 | awk -F'[][]' '{print $4}'` = \"on\" ] \
-                                   && printf \"`amixer sget Capture | tail -n 1 | awk -F'[][]' '{print $2}'`%%\" \
-                                   || printf 'Off'";
+                                   && printf \"`amixer sget Capture | tail -n 1 | awk -F'[][]' '{print $2}'`%%\" ";
 
 static const struct arg args[] = {
         /* function format          argument */
